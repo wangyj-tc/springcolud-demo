@@ -36,7 +36,7 @@
 			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
 
-		<!-- hystrix 断路器  处理一些服务接口异常中断的情况-->
+		<!-- hystrix 断路器 处理一些服务接口异常中断的情况 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
@@ -75,5 +75,6 @@
 		<module>springcloud-service</module>
 		<module>springcloud-ribbon</module>
 		<module>springcloud-feign</module>
+		<module>springcloud-common</module>
 	</modules>
 </project>
